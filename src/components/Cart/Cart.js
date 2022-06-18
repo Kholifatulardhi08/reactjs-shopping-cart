@@ -20,7 +20,7 @@ const Cart = ({ items, total, currency, removeFromCart }) => {
                         {items.length === 0 && (
                             <div className="alert alert-info">Cart is empty</div>
                         )}
-                        <div className="cart__total">Total: {total} {currency}</div>
+                        <div className="cart__total">Total: {currency} {total} </div>
                     </div>
                 </div>
             </div>

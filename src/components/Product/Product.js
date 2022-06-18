@@ -20,7 +20,7 @@ class Product extends Component {
                 <img src={image} alt="product" />
                 <div className="caption">
                     <h3>{name}</h3>
-                    <div className="product__price">{price} {currency}</div>
+                    <div className="product__price">{currency} {price} </div>
                     <div className="product__button-wrap">
                         <button
                             className={isInCart ? 'btn btn-danger' : 'btn btn-primary'}
